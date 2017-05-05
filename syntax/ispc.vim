@@ -13,7 +13,7 @@ runtime! syntax/c.vim
 unlet b:current_syntax
 
 " New keywords
-syn keyword	ispcStatement	cbreak ccontinue creturn launch print reference soa sync
+syn keyword	ispcStatement	cbreak ccontinue creturn launch print reference soa sync reduce_add
 syn keyword	ispcConditional	cif
 syn keyword	ispcRepeat	cdo cfor cwhile foreach foreach_tiled foreach_unique foreach_active
 syn keyword	ispcBuiltin	programCount programIndex taskCount taskCount0 taskCount1 taskCount3 taskIndex taskIndex0 taskIndex1 taskIndex2
